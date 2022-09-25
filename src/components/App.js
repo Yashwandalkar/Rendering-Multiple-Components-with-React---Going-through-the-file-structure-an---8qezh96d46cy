@@ -3,18 +3,13 @@ import "../styles/App.css";
 
 const App = () => {
   return (
-    <>
-      <div id="main"></div>
-      <h1>Amazone Clone</h1>
-      <p>
-        {" "}
-        It's an eCommerce app inspired by Amazon, big Basket, Grofers, grocery
-        app, a sample Android application 📱 built to demonstrate the use of
-        Modern Android development tools - (Kotlin, Coroutines, Flow, Dagger
-        2/Hilt, Architecture Components, MVVM, Room, Retrofit, Gson, Material
-        Components).
-      </p>
-    </>
+    
+     <div id="main">
+      <h1 data-ns-test="project-name">Project Name</h1>
+      <h2 data-ns-test="project-discription">ProjectDescription<h2/>
+     </div>
+      
+    
   );
 };
 
